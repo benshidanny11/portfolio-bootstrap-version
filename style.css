@@ -66,5 +66,35 @@ body {
 .mt-3{
     margin-top: 3rem;
 }
+.mt-5{
+  margin-top: 5rem;
+}
+
+.img {
+  width: 100%;
+}
+
+.project {
+  background-color: #fff;
+  width: 88%;
+  border-radius: 1.5rem;
+  padding: 3rem;
+margin: 0 auto;}
+
+
+.menu {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #344563;
+}
+
+.menu-1 {
+  color: #344563;
+}
+
+.menu-2 {
+  color: #7a869a;
+}
+
 
   
