@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 body {
   padding: 0;
   margin: 0;
   background-color: #f4f5f7;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .icons {
-    width: 25px;
-    height: 25px;
-  }
+  width: 25px;
+  height: 25px;
+}
 
 .links {
   list-style-type: none;
@@ -18,16 +18,51 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.logo {
-    color: #6070ff;
-    font-weight: bold;
-  }
 
-.header {
-    background-color: #fff;
-    padding: 1rem 0 0 3rem;
+.logo {
+  color: #6070ff;
+  font-weight: bold;
 }
 
+.contactform {
+  background: #6070ff;
+  background-image: url(./assets/contactformbackground.png);
+  background-repeat: no-repeat;
+  background-position: 100% 30px, 50% 98%;
+  border-radius: 90px 0 0 0;
+  margin-top: 5.7rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.inner-form-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner-form-container h1 {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.inner-form-container p {
+  margin-top: 1rem;
+  color: #ebebff;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header {
+  background-color: #fff;
+  padding: 1rem 0 0 3rem;
+}
 
 .introduction-container {
   background-image: url(assets/background.png);
@@ -38,35 +73,38 @@ body {
 }
 
 .inner-container h1 {
-    color: #172b4d;
-    font-size: 48px;
-    font-weight: bold;
-    animation: bounce-in-fwd 3s ease-in-out alternate both;
-  }
+  color: #172b4d;
+  font-size: 48px;
+  font-weight: bold;
+  animation: bounce-in-fwd 3s ease-in-out alternate both;
+}
 
 .inner-container p {
-    color: #172b4d;
-    font-size: 20px;
+  color: #172b4d;
+  font-size: 20px;
 }
 
 .inner-container h5 {
-    text-transform: uppercase;
-    color: #6070ff;
-    font-size: 18px;
-    margin-top: 2.5rem;
-    font-weight: bold;
+  text-transform: uppercase;
+  color: #6070ff;
+  font-size: 18px;
+  margin-top: 2.5rem;
+  font-weight: bold;
 }
 
-.mt-1{
-    margin-top: 1rem;
+.mt-1 {
+  margin-top: 1rem;
 }
-.mt-2{
-    margin-top: 2rem;
+
+.mt-2 {
+  margin-top: 2rem;
 }
-.mt-3{
-    margin-top: 3rem;
+
+.mt-3 {
+  margin-top: 3rem;
 }
-.mt-5{
+
+.mt-5 {
   margin-top: 5rem;
 }
 
@@ -79,8 +117,8 @@ body {
   width: 88%;
   border-radius: 1.5rem;
   padding: 3rem;
-margin: 0 auto;}
-
+  margin: 0 auto;
+}
 
 .menu {
   font-family: "Poppins", sans-serif;
@@ -95,10 +133,24 @@ margin: 0 auto;}
 .menu-2 {
   color: #7a869a;
 }
-.boldtext{
+
+.boldtext {
   font-weight: bold;
   font-size: 40px;
 }
 
+.submit {
+  width: 43%;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  border: none;
+  color: #6070ff;
+}
 
-  
+.submit:hover {
+  background: #6070ff;
+  color: #fff;
+  transition: 1s;
+  border: #fff 1px solid;
+}
